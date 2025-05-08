@@ -61,7 +61,7 @@ You can modify the following constants at the beginning of the `main.py` script:
 1.  **Start Ollama:** Ensure the Ollama service is running in the background.
 2.  **Run the script:**
     ```bash
-    python app.py
+    python main.py
     ```
 3.  **Access the Web UI:** Open your web browser and navigate to the URL provided by Gradio (`http://127.0.0.1:7860`).
 
@@ -85,7 +85,7 @@ You can modify the following constants at the beginning of the `main.py` script:
 
 ```
 .
-├── app.py                 # Your main Python script
+├── main.py                 # Your main Python script
 ├── uploaded_files/        # Stores uploaded PDF files (cleared on startup by default)
 │   └── example_doc.pdf
 ├── chroma_db/           # Persistent storage for ChromaDB (cleared on startup by default)
